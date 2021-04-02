@@ -8,7 +8,7 @@ cat ~/.gitconfig
 
 git init
 git add . // “.”的意思是把当前目录下的所有文件加入缓冲区
-git config -m "[Any]" //Any中代表的是本次更新的注册信息
+git commit -m "[Any]" //Any中代表的是本次更新的注册信息
 git remote add origin [Any] //Any代表要提交仓库的https地址
 git push -u origin master
 
